@@ -1,0 +1,78 @@
+.HowItWorks{
+    margin-top: 30px;
+    font-family: 'Open Sans,Geneva,Helvetica,Arial,sans-serif';
+    letter-spacing: 4.5px;
+}
+
+.bookingButton{
+    width: 10rem; 
+    height: 3rem; 
+    background-color: rgb(215, 175, 55);
+    border-color: rgb(215, 175, 55);
+}
+
+.custButton{
+    width: 8rem;
+    height: 12rem;
+    border-radius: 12px;
+    background-color: white;
+    border-color: rgb(215, 175, 55);
+}
+
+.custButton:focus{
+    border-color: red;
+}
+
+.confirmButton{
+    background-color: rgb(215, 175, 55);
+    border-radius: 12px;
+    border-color: rgb(215, 175, 55);
+}
+
+.radio-toolbar, .radio-time {
+    margin: 10px;
+  }
+  
+  .radio-toolbar input[type="radio"], .radio-time input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+  }
+  
+  .radio-toolbar label {
+      display: inline-block;
+      background-color: white;
+      font-family: sans-serif, Arial;
+      font-size: 16px;
+      border: 2px solid rgb(199, 199, 199);
+      border-radius: 12px;
+      color:black;
+      padding:70px 10px;
+  }
+  
+  .radio-toolbar label:hover, .radio-time label:hover {
+    background-color: rgb(215, 175, 55);
+  }
+  
+  
+  .radio-toolbar input[type="radio"]:checked + label, .radio-time input[type="radio"]:checked + label {
+      border-color: black;
+      background-color: rgb(215, 175, 55);
+
+  }
+
+  .radio-time label{
+      display: inline-block;
+      background-color: white;
+      padding: 25px 20px;
+      font-family: sans-serif, Arial;
+      font-size: 12px;
+      border: 2px solid rgb(199, 199, 199);
+      border-radius: 12px;
+      color:black;
+  }
+
+  .carousel-control-next, .carousel-control-prev{
+      filter: invert(100%);
+      width: 6rem;
+  }
